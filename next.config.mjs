@@ -7,8 +7,10 @@
   
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "standalone", // Ensure kare ki SSR aur API Routes sahi kaam karein
+    output: "export",
+    trailingSlash: true, // Ensure kare ki static site sahi kaam kare
   };
   
   export default nextConfig;
+  
   
