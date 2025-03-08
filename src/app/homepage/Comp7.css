@@ -1,0 +1,20 @@
+@import url('EasiestWay.css');
+
+.section7{
+    background: url('https://tax2win.in/assets-new/img/new-theme/benefits_element.svg') right bottom no-repeat rgb(237, 242, 248);
+
+}
+.section7-btn{
+    background-color: var(--primary-color);
+}
+.section7-box{
+    width: 380px;
+    border: 1px solid rgb(246, 246, 246);
+}
+
+@media only screen and (max-width: 413px) {
+    .section7-box{
+        width: 100%;
+        
+    }
+}

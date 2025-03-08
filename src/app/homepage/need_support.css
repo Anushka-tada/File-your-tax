@@ -1,0 +1,4 @@
+@import url('EasiestWay.css');
+.needSupport{
+    background-color: var(--primary-color);
+}

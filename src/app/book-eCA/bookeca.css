@@ -1,0 +1,161 @@
+@import url('../homepage/EasiestWay.css');
+
+li img {
+    width: 19px;
+    height: 19px;
+}
+.ca-text{
+    width: 39%;
+   
+}
+.cs-consulltants{
+    background-color: #fafbfd;;
+}
+.ca-text{
+    color: #0c2343;
+   
+}
+.ca-form{
+    width: 436px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.book-btn{
+    background-color: var(--primary-color);
+
+}
+input{
+    width: 100%;
+    border: 1px solid rgb(188, 188, 188);
+}
+.google-btn{
+    border: 1px solid #1678fb;
+}
+.google-btn p{
+   color: #1678fb;
+}
+.blue-text{
+    color: #003364;
+
+}
+.ca-form {
+    position: relative;
+  }
+  
+  .ca-form .banner {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+
+  }
+
+
+  @media (max-width: 490px){
+    .ca-form{
+        width: 90%;
+    }
+    .ca-text{
+        width: 90%;
+       
+    }
+  }
+
+  @media (max-width: 800px){
+    
+    .ca-text{
+        width: 100%;
+       
+    }
+  }
+
+  .tax-return-filling{
+    background: var(--secondary-color);
+  }
+
+  .step1{
+    width: 420px;
+    border: 1px solid rgb(228, 228, 228);
+  }
+ 
+  @media (max-width: 465px){
+    
+   .step1{
+    width: 90%;
+   }
+}
+
+@media (max-width: 665px){
+    
+    .tax-return-filling{
+padding: 15px;
+    }
+ 
+   }
+
+
+   /* how it works section start */
+ 
+   .how-it-works h1{
+    color: #253243;
+   }
+
+   .how-it-works h2{
+    color: #253243;;
+   }
+   .works p{
+    color: #253243;
+   }
+
+  .work-btn{
+    background: var(--secondary-color);
+     color: var(--third-color);
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .work{
+    width: 660px;
+    border: 1px solid #E1E5EE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0 ,0.05);
+    background-color: #FFFFFF;
+  }
+
+  @media (max-width: 700px){
+    
+    .work{
+        width: 90%;
+      }
+ 
+   }
+
+   @media (min-width: 700px) and (max-width: 1340px){
+    
+    .work{
+        width: 47%;
+      }
+ 
+   } 
+
+   /* looking for CA section start */
+
+  .looking-ca  h1{
+    color: #253243;
+   }
+ .looking-ca {
+    background-color: #f1f5f9;
+ }  
+
+ .ca-services{
+    width: 450px;
+ }
+ .ca-service{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+ }
+
+ .services-details {
+    width: 800px;
+ }
+
+ .bg-blue{
+  background-color: var(--primary-color);
+ }

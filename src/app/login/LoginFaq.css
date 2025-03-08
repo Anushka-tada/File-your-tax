@@ -1,0 +1,17 @@
+.faq-heading , .que , p , li{
+    color: #333;
+}
+.login-faq {
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+ul.custom-circle li::before {
+    content: '•'; /* Unicode character for filled circle */
+    color: black; /* You can change the color */
+    font-size: 1.5em; /* Size of the circle */
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; /* Adjust the position */
+  }
+  .blue-text{
+    color: #337ab7;
+  }

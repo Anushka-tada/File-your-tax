@@ -1,0 +1,35 @@
+@import url('../homepage/EasiestWay.css');
+
+.main-steps-container {
+    overflow-x: auto; /* Ensures the parent div has a horizontal scrollbar */
+}
+
+
+
+.main-steps {
+    background-color: #a7b9c0;
+    padding: 10px;
+}
+
+.main-steps ul {
+    display: flex; /* Use flexbox to make the list items display in a row */
+    overflow-x: auto; /* Ensures the list itself has a horizontal scrollbar */
+    white-space: nowrap; /* Prevents the list items from wrapping to the next line */
+    margin: 0; /* Removes default margin for consistent layout */
+    padding: 0; /* Removes default padding for consistent layout */
+    justify-content: center;
+}
+
+.main-steps li {
+    display: inline-block; /* Ensures the list items are displayed inline for the scrollbar to work */
+    list-style: none; /* Removes default list item markers */
+    font-weight: semibold;
+}
+
+
+@media (max-width:1310px){
+    .main-steps ul {
+        justify-content: start;
+    }
+}
+

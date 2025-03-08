@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #23456b ;
+    --secondary-color: #e9f3fc;
+   --third-color: #2364aa;
+  }
+
+.section-1{
+    background-color: var(--secondary-color);
+    
+}
+.ITR-btn{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.india{
+    color: var(--third-color);
+}
+.section1-heading{
+    font-size: 50px;
+    width: 32rem;
+    line-height: 51px;
+    font-weight: 700;
+    color: #253243;
+    font-family: Poppins, sans-serif;
+}
+.box1{
+    /* background: url("https://tax2win.in/assets-new/img/new-theme/service-element1-copy.svg") left bottom no-repeat #5585b6; */
+    background-color: #5585b6;
+}
+.box-2{
+    /* background: url("https://tax2win.in/assets-new/img/new-theme/service-element2-copy.svg") right bottom no-repeat #197E37; */
+     background-color: var(--primary-color);
+}
+.eCA{
+     font-weight: 500;
+}
+.section1-boxes  h2{
+   font-weight: 700;
+   font-size: 34;
+}
+
+@media only screen and (max-width: 800px) {
+   .section1-heading{
+      width: 100%;
+      
+   }
+}

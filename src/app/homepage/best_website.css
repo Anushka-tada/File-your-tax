@@ -1,0 +1,32 @@
+@import url('EasiestWay.css');
+
+
+.section3{
+    background-color: var(--secondary-color);
+    
+}
+
+.section3 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #253243;
+}
+
+.section3-box {
+    width: 300px;
+}
+
+.read-btn-text{
+    color: #09345a;;
+}
+
+ .section3 p{
+    color:#253243;
+}
+
+@media only screen and (max-width: 800px) {
+    .read-btn{
+       justify-content: center;
+       
+    }
+ }

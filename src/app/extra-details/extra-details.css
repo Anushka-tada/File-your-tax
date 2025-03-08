@@ -1,0 +1,33 @@
+.extra-details {
+    background-color: #d3dbe4;
+}
+.extra-details h1{
+    color: #253243;
+}
+
+
+.extra-input input , .extra-input select{
+    border: 1px solid rgb(185, 185, 185);
+    width: 340px;
+}
+.extra-detail-form{
+    width: 80%;
+}
+@media (max-width:670px){
+      
+    .extra-detail-form , .extra-details .financial-btns  {
+        width: 96%;
+      }
+}
+.full{
+    width: 100%;
+}
+.half{
+    width: 48%;
+}
+@media (max-width:400px){
+    .extra-input input , .extra-input select{
+        width: 100%;
+    }    
+
+}

@@ -1,0 +1,58 @@
+@import url('../homepage/EasiestWay.css');
+
+.contact-right{
+    background-color: #1a4876;
+}
+
+  .contact-outer   input , textarea {
+    border: none;
+    outline: none;
+    border-bottom:  1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+}
+
+.contactForm{
+    position: absolute;
+    z-index: 99;
+
+}
+.map{
+    background: rgba(51, 64, 80, .3);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 67px;
+    bottom: 0;
+}
+.comment ,.mail {
+    width: 600px;
+}
+.name , .phone {
+    width: 290px;
+}
+.support-img {
+   
+    opacity: .1;
+}
+@media only screen and (max-width: 1024px) {
+    .comment ,.mail {
+        width: 400px;
+    }
+    .name , .phone {
+        width: 190px;
+    }
+ }
+ @media only screen and (max-width: 440px) {
+    .comment ,.mail {
+        width: 300px;
+    }
+    .name , .phone {
+        width: 140px;
+    }
+ }
+
+ .bg-blue{
+    background-color: var(--third-color);
+ }

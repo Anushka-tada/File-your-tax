@@ -1,0 +1,9 @@
+@import url('EasiestWay.css');
+
+.section4{
+    background-color: var(--primary-color);
+}
+
+.text-blue{
+    color: var(--third-color);
+}

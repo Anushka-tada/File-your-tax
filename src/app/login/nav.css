@@ -1,0 +1,72 @@
+@import url('../homepage/EasiestWay.css');
+
+.navbar-items {
+    color: #353c40;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.product, .tools, .knowledge, .guide {
+    display: flex;
+    align-items: center;
+}
+
+.more-tax-btn {
+    color: var(--primary-color);
+}
+/* .lists{
+    margin-top: 120px;
+} */
+
+.drop-product{
+  margin-top: 470px;
+}
+
+.drop-tool{
+margin-top: 570px;
+}
+.drop-guide{
+    margin-top: 600px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .drop-tool{
+        margin-top: 560px;
+    }
+ }
+ @media only screen and (max-width: 480px) {
+    .drop-tool{
+        margin-top: 680px;
+    }
+ }
+
+ .Blue{
+    color: var(--third-color);
+ }
+ .logo{
+    font-family: "Eras Demi ITC";
+ }

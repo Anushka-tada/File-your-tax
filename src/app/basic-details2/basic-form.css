@@ -1,0 +1,75 @@
+
+@import url('../homepage/EasiestWay.css');
+.basic-form input{
+    border: 1px solid rgb(185, 185, 185);
+   width: 320px;;
+}
+.basic-form-section{
+    background-color: #d3dbe4;
+}
+.basic-form-section h1{
+    color: #253243;
+}
+.basic-form-outer{
+    width: 50%;
+}
+
+
+
+.basic-form-section  .financial-btns{
+    width: 47%;
+}
+
+.get-button{
+    background-color: #09345a;
+    
+}
+.continue-btn{
+    background-color: var(--primary-color);
+}
+
+.back-btn{
+    border: 1px solid var(--primary-color);
+}
+@media (max-width:940px){
+    .basic-form-outer{
+        width: 90%;
+    }
+    
+}
+@media (max-width:1380px){
+    .basic-form-outer{
+        width: 70%;
+    }
+  .basic-form-section  .financial-btns{
+        width: 70%;
+    }
+    
+}
+.get-button{
+   width: 220px;
+    height: 50px;
+}
+.continue-btn{
+    width: 220px;
+    height: 50px;
+}
+@media (max-width:583px){
+   
+  
+   .basic-form input{
+       
+       width: 100%;
+    }
+    .basic-form-outer{
+        width: 97%;
+    }
+  .basic-form-section  .financial-btns{
+        width: 97%;
+    }
+
+}
+
+.text-blue{
+    color: var(--third-color);
+}

@@ -1,0 +1,30 @@
+.Faq{
+    border-bottom: 1px solid rgb(227, 227, 227);
+    /* transition: opacity 2s ease, max-height 2s ease; */
+}
+
+
+
+
+ul.custom-circle li::before {
+  content: '•'; /* Unicode character for filled circle */
+  color: black; /* You can change the color */
+  font-size: 1.5em; /* Size of the circle */
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; /* Adjust the position */
+}
+ol.custom-circle li::before {
+  content: '•'; /* Unicode character for filled circle */
+  color: black; /* You can change the color */
+  font-size: 1.5em; /* Size of the circle */
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; /* Adjust the position */
+}
+.question{
+  color: #2e3846;
+}
+.Faq p{
+  color: #323f50;
+}

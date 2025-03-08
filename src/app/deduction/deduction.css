@@ -1,0 +1,142 @@
+@import url('../homepage/EasiestWay.css');
+
+.deduction-section{
+    background-color: #d3dbe4;
+}
+.deduction-section h1{
+    color: #253243;
+}
+
+.deduction-form {
+    width: 80%;
+}
+
+.bg-blue{
+    background-color: #09345a;
+}
+
+.form-options{
+    border: 1px solid rgb(223, 223, 223);
+    width: fit-content;
+    position: absolute;
+    top: -30px;
+}
+
+ @media (max-width:650px){
+    .form-options{
+        border: 1px solid rgb(223, 223, 223);
+        width: fit-content;
+        position:static;
+        top: -30px;
+    }
+    .form-option{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+    .form-option p{
+        font-size: 15px;
+    }
+ }
+.notes{
+    background-color: var(--secondary-color);
+}
+
+.radio{
+    width: auto !important;
+}
+
+  .c-imput input , select , .D-input input , .donation-input input, .other-input input , .other-input select , .expenditure{
+    width: 330px;
+    border: 1px solid rgb(185, 185, 185);
+}
+.address-input{
+    width: 100%;
+}
+
+.address-input input {
+    width: 100%;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.deduction-section  .financial-btns{
+  width: 80%;
+}
+
+.get-button{
+    background-color: #09345a;
+    
+}
+.continue-btn{
+    background-color: var(--primary-color);
+}
+
+.back-btn{
+    border: 1px solid var(--primary-color);
+}
+.get-button{
+    width: 220px;
+     height: 50px;
+ }
+ .continue-btn{
+     width: 220px;
+     height: 50px;
+ }
+
+
+ @media (max-width:940px){
+    .deduction-form{
+        width: 90%;
+    }
+    
+}
+@media (max-width:1380px){
+    
+    .deduction-form  .financial-btns{
+        width: 70%;
+    }
+    
+}
+@media (max-width:420px){
+      
+    .c-imput input , select , .D-input input , .donation-input input , .other-input input , .other-input select , .expenditure{
+        width: 270px;
+        border: 1px solid rgb(185, 185, 185);
+    }
+}
+
+@media (max-width:337px){
+      
+    .c-imput input , select , .D-input input , .donation-input input , .other-input input , .other-input select , .expenditure{
+        width: 210px;
+        border: 1px solid rgb(185, 185, 185);
+    }
+}
+
+.policy-holder{
+   width: 68%;
+}
+
+@media (max-width:800px){
+    .policy-holder{
+        width: 100%;
+     }
+     
+}
+
+
+.policy-type{
+    background-color: #edf4fd;
+}
+
+.add-btn{
+    background-color: #09345a;
+}
+.add-btn-outer{
+    width: 100%;
+}
+
+.text-blue{
+    color: var(--third-color);
+}

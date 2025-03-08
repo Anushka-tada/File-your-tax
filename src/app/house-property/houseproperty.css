@@ -1,0 +1,60 @@
+@import url('../homepage/EasiestWay.css');
+
+.house-property{
+    background-color: #d3dbe4;
+}
+
+.house-propery-form , .house-property .financial-btns , .add-property{
+    width: 76%;
+}
+
+.house-propery-form input , .house-propery-form select{
+    border: 1px solid rgb(166, 166, 166);
+
+}
+.house-propery-form .types-imput{
+    background-color: #edf4fd;
+}
+
+.house-propery-form .address , .deemed-content{
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.no-btn , .yes-btn{
+    border: 1px solid rgb(176, 176, 176);
+    cursor: pointer;
+}
+.yes-input input , .add-inpt {
+    width: 330px;
+}
+
+ .add-btn{
+    background-color:  #09345a;
+}
+
+@media (max-width: 900px){
+    .house-propery-form , .house-property .financial-btns , .add-property{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 1020px){
+    .yes-input input , .add-inpt{
+        width: auto;
+    }
+    
+    
+}
+
+.add-inpt{
+
+}
+
+.bg-blue{
+    background-color: var(--primary-color);
+}
+
+.text-blue{
+    color: var(--third-color);
+}

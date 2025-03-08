@@ -1,0 +1,18 @@
+/* .balloon{
+    transition: transform .5s ease;
+z-index: 10;
+animation: balloons 4s ease-in-out infinite;
+transform-origin: bottom center;
+background: url("https://tax2win.in/assets-new/img/ballon-left.png") left top;
+width: 94px;
+height: 129px;
+position: absolute;
+left: 5%;
+top: 15%;
+} */
+
+@import url('../homepage/EasiestWay.css');
+
+.text-blue{
+    color: var(--third-color);
+}

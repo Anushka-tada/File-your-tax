@@ -1,0 +1,15 @@
+@import url('../homepage/EasiestWay.css');
+
+.solutions{
+    background-color: rgba(133, 162, 197, 0.115);
+}
+
+.query{
+
+    border: 1px solid #1a4876;
+    color: #0c2343;
+}
+.query:hover{
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+}

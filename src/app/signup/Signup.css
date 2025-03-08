@@ -1,0 +1,27 @@
+@import url('../homepage/EasiestWay.css');
+
+.Sign-Form{
+    background: #fafafa;
+}
+.sign-heading{
+    font-family: Inter, sans-serif;;
+}
+
+.Sign-Form input{
+    border: 1px solid rgb(162, 162, 162)
+}
+.forget-p{
+    color: var(--third-color);
+}
+.sign-btn{
+    background-color: var(--primary-color);
+}
+.sign-green{
+    color: var(--third-color);
+}
+.refunds , .return-filling{
+    color: #969696;
+}
+.text-blue{
+    color: var(--primary-color);
+}

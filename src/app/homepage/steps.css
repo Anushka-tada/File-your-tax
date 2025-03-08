@@ -1,0 +1,36 @@
+@import url('EasiestWay.css');
+
+.file-btn{
+   background-color:  var(--primary-color);
+}
+
+.heading{
+font-weight:700;
+font-size: 40px;
+}
+/* .box{
+      width: 200px;
+} */
+
+.box p{
+   width: 160px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .section2-boxes{
+        box-shadow: 1px 4px 11px -2px rgb(211, 211, 211);
+        padding-bottom: 14px;
+    }
+ }
+
+ .text-blue{
+   color: var(--third-color);
+ 
+}
+.blue{
+   background-color: var(--primary-color);
+}
+

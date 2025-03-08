@@ -1,0 +1,181 @@
+@import url('../homepage/EasiestWay.css');
+.eFilling-outer{
+    /* background-image: url("	https://tax2win.in/assets-new/img/new-theme/diy-flow/soi-bg-new.png") !important; */
+    background-color: #d3dbe4;
+}
+
+.efill-que{
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+.continue-btn{
+    background-color:var(--primary-color);
+}
+
+
+.looking-CA{
+    background: #5585B6;
+}
+
+/* Style for custom radio button */
+.custom-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--primary-color) !important; /* green-700 color */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .custom-radio:checked {
+    background-color: #ffffff !important; /* green-700 color */
+    border: 2px solid var(--primary-color) !important; /* green-700 color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-radio:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    margin: auto;
+  }
+  
+
+/* Made a mistake in your FIled ITR section  */
+
+.revised-return{
+    width: 610px;
+    border: 1px solid rgb(224, 224, 224);
+
+} 
+.revised-return h3 , .made-a-mistake-outer h1{
+    color: #253243;
+}
+
+@media (max-width:650px){
+    .revised-return{
+        width: 100%;
+    
+    } 
+
+    .made-a-mistake-outer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* Find ITR Filling Plans Section start */
+
+
+.Itr-plans-section{
+    background-color: #f6f6f6;
+}
+
+.Itr-plans-section h1{
+color: #253243;
+}
+
+.itr-plan{
+    width: 420px;
+    background: url("https://tax2win.in/assets-new/img/diy-landing/price-element.svg") right bottom no-repeat #ffffff;
+}
+.itr-plan-2{
+   width: 420px;
+   background-color: var(--primary-color);
+}
+.itrfilling-btn {
+    background-color: var(--secondary-color);
+}
+.itrfilling-btn p{
+    color: var(--third-color);
+}
+.strike{
+    text-decoration: line-through;
+}
+.buy-btn {
+    border: 1px solid black;
+}
+.plan{
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+@media (max-width:450px){
+    .itr-plan{
+        width: 100%
+        
+    }
+    .itr-plan-2{
+       width: 100%
+    }
+}
+
+@media (max-width:888px){
+    .Itr-plans-section{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+
+
+.faq {
+    border-bottom: 1px solid #cecece;
+}
+.faq ul li{
+    margin-bottom: 5px;
+}
+.Faq-section{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+@media (max-width:610px){
+    .Faq-section{
+        padding-left: 18px;
+        padding-right: 18;
+    }
+}
+.table-1{
+    width: 630px;
+}
+
+.table-2{
+    width: 630px;
+}
+
+.table-2-outer{
+    width: 100%;
+}
+
+@media (max-width: 840px){
+    .table-1{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .table-2{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   
+}
+.link-p{
+    color: rgb(30, 138, 227);
+}
+.faq p {
+    font-size: 17px;
+}
+
+.text-blue{
+    color: var(--third-color);
+}

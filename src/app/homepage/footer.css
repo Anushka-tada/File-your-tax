@@ -1,0 +1,17 @@
+@import url('EasiestWay.css');
+
+.footer-panels , .footer-last-parts{
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+.subscribe-btn{
+    background-color: var(--primary-color);
+}
+.email-input{
+    border:  1px solid rgb(206, 206, 206);
+}
+footer-section  .panel li{
+    color: #44586b;
+}
+footer-section   .panel-h{
+    color: #253243;
+}

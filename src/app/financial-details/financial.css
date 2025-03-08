@@ -1,0 +1,85 @@
+@import url('../homepage/EasiestWay.css');
+
+.financial-details{
+    background-color: #d3dbe4;
+}
+
+.financial-details h1{
+    color: #253243;
+}
+.financial-form input , .financial-form .year{
+ border:  1px solid rgb(163, 163, 163);
+}
+
+.financial-form{
+    width: 60%;
+}
+.input-1{
+    width: 50%;
+}
+.input-2{
+    width: 49%;
+}
+
+.financial-details .financial-btns{
+    width: 60%;
+}
+
+.get-button{
+    background-color: #09345a;
+}
+.continue-btn{
+    background-color: var(--primary-color);
+}
+
+.back-btn{
+    border: 1px solid var(--primary-color);
+}
+
+.needSupport{
+    background-color: var(--primary-color);
+}
+
+@media (max-width:940px){
+    .financial-details  .financial-btns{
+        width: 90%;
+    }
+    .financial-form{
+        width: 90%;
+    }
+}
+
+
+@media (max-width:768px){
+    .input-1{
+        width: 100%;
+    }
+    .input-2{
+        width: 100%;
+    }
+}
+.get-button{
+   
+    height: 50px;
+}
+.continue-btn{
+  
+    height: 50px;
+}
+@media (max-width:462px){
+    .financial-details .get-button{
+        width: 80%;
+        height: 50px;
+    }
+    .financial-details    .continue-btn {
+        width: 100%;
+        height: 50px;
+    }
+    .financial-details  .other-btns {
+        width: 100%;
+    }
+}
+
+.text-blue{
+    color: var(--third-color);
+}
