@@ -1,16 +1,10 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {};
-
-// export default nextConfig;
-
-
-  
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: "export",
-    trailingSlash: true, // Ensure kare ki static site sahi kaam kare
-  };
+const nextConfig = {};
+
+export default nextConfig;
+
+
   
-  export default nextConfig;
+
   
   
