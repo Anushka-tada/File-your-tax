@@ -4,11 +4,9 @@
 // export default nextConfig;
 
 
-  /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-      appDir: true, // Ensure Next.js App Router is enabled
-    },
+    output: "standalone", // Ensure Vercel serves properly
+    experimental: { appDir: true }
   };
   
   export default nextConfig;
