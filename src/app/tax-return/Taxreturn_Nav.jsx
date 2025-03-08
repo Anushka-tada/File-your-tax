@@ -58,10 +58,10 @@ const Taxreturn_Nav = () => {
        bg-white lg:bg-transparent w-full lg:w-auto py-7 lg:py-0 lg:px-6 md:px-1 px-1 lg:px-0 mt-5 md:mt-5 lg:mt-0`}>
         
         {/* <div className="font-medium">Log In</div> */}
-        <Link href="\LogIn"
+        <Link href="\login"
                className="font-medium" > Log In
                    </Link>
-                   <Link href="\Signup"
+                   <Link href="\signup"
                className="font-medium" > Sign Up
                    </Link>
       </div>

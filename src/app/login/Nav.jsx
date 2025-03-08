@@ -215,8 +215,8 @@ const Nav = () => {
 
         <div>Pricing</div>
         <div>Contact</div>
-       <a href="\LogIn"> <div>Log In</div></a>
-       <a href="\Signup"> <div>Sign Up</div></a>
+       <a href="\login"> <div>Log In</div></a>
+       <a href="\signup"> <div>Sign Up</div></a>
       </div>
     </div>
   );
