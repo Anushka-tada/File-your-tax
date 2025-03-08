@@ -3,7 +3,8 @@ import Taxreturn_Nav from '../tax-return/Taxreturn_Nav'
 
 import ExtraDetails from './ExtraDetails'
 import Support from '../financial-details/Support'
-import Mainsteps from '../basic-details2/mainsteps'
+import Mainsteps from '../basic-details2/Mainsteps'
+// import Mainsteps from '../basic-details2/mainsteps'
 
 const page = () => {
   return (
